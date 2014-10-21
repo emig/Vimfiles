@@ -1,3 +1,5 @@
+let mapleader=","
+
 " Annoying, remove:
 nnoremap s <Nop>
 nnoremap Q <Nop>
@@ -84,6 +86,7 @@ inoremap <C-u> <C-x><C-u>
 inoremap <C-f> <C-x><C-f>
 inoremap <C-]> <C-x><C-]>
 inoremap <C-l> <C-x><C-l>
+
 set completefunc=syntaxcomplete#Complete
 
 " Use the last two typed characters to output a digraph.
